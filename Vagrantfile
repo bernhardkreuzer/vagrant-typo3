@@ -55,7 +55,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe 'typo3::vagrant'
 
     chef.json = {
-      :tz => 'America/Los_Angeles',
+      :tz => 'Europe/Berlin',
       :mysql  => {
         :server_root_password   => "password",
         :server_repl_password   => "password",
