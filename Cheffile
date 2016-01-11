@@ -18,4 +18,4 @@ cookbook 'database'
 cookbook 'php'
 
 cookbook 'typo3',
-  :github => 'irnnr/chef-typo3'
+  :github => 'bernhardkreuzer/chef-typo3'

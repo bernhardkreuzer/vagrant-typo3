@@ -1,4 +1,4 @@
-$project_name = 'vagrant-typo3'
+$project_name = 'trauerhilfe'
 
 Vagrant.require_version ">= 1.5.0"
 VAGRANTFILE_API_VERSION = "2"
@@ -69,7 +69,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         :default_site_enabled => false
       },
       :typo3  => {
-        :version => '6.2.6',
+        :version => '7.6.2',
         :package => 'source',
         :site_name => $project_name,
         :application_context => 'Development'
